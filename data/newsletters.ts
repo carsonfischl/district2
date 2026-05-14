@@ -1,11 +1,21 @@
 export interface Newsletter {
   id: string
   title: string
-  volume: string
+  volume?: string
   date: string
   description?: string
   pdfPath?: string
 }
+
+export const otherDocs: Newsletter[] = [
+  {
+    id: 'flower-show',
+    title: 'Other',
+    date: '',
+    description: 'District 2 2026 Flower Show schedule.',
+    pdfPath: '/newsletters/Schedule LARGE final 8.5 x 11 (2).pdf',
+  },
+]
 
 export const newsletters: Newsletter[] = [
   {
