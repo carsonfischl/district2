@@ -14,8 +14,8 @@ export default function Home() {
             </svg>
           </div>
           <div>
-            <h1 className="text-lg font-semibold text-gray-900 leading-tight">OHA District 2</h1>
-            <p className="text-sm text-gray-400 leading-tight">Ottawa Valley Horticultural Society</p>
+            <h1 className="text-lg font-semibold text-gray-900 leading-tight">District 2 Ontario Horticultural Association</h1>
+            <p className="text-sm text-gray-400 leading-tight">Ottawa Valley Gardeners 5a/5b</p>
           </div>
         </div>
       </header>
