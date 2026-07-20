@@ -1,3 +1,8 @@
+export interface Attachment {
+  label: string
+  pdfPath: string
+}
+
 export interface Newsletter {
   id: string
   title: string
@@ -5,22 +10,19 @@ export interface Newsletter {
   date: string
   description?: string
   pdfPath?: string
+  attachments?: Attachment[]
 }
 
 export const otherDocs: Newsletter[] = [
   {
-    id: 'flower-show',
+    id: 'other',
     title: 'Other',
     date: '',
-    description: 'District 2 2026 Flower Show schedule.',
-    pdfPath: '/newsletters/Schedule LARGE final 8.5 x 11 (2).pdf',
-  },
-  {
-    id: 'photo-competition',
-    title: 'Other',
-    date: '',
-    description: 'District 2 2027 Photo Competition.',
-    pdfPath: '/newsletters/D2 2027 Photo Competition.pdf',
+    description: 'Other District 2 documents.',
+    attachments: [
+      { label: 'Flower Show Schedule', pdfPath: '/newsletters/Schedule LARGE final 8.5 x 11 (2).pdf' },
+      { label: 'Photo Competition', pdfPath: '/newsletters/D2 2027 Photo Competition.pdf' },
+    ],
   },
 ]
 

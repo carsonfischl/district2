@@ -8,7 +8,11 @@
       "Bash(curl -s http://localhost:3000)",
       "Skill(vercel:env)",
       "Bash(vercel link *)",
-      "Bash(npm i *)"
+      "Bash(npm i *)",
+      "Bash(git fetch *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git push *)"
     ]
   }
 }
