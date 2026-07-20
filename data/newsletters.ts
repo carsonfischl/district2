@@ -15,6 +15,13 @@ export const otherDocs: Newsletter[] = [
     description: 'District 2 2026 Flower Show schedule.',
     pdfPath: '/newsletters/Schedule LARGE final 8.5 x 11 (2).pdf',
   },
+  {
+    id: 'photo-competition',
+    title: 'Other',
+    date: '',
+    description: 'District 2 2027 Photo Competition.',
+    pdfPath: '/newsletters/D2 2027 Photo Competition.pdf',
+  },
 ]
 
 export const newsletters: Newsletter[] = [
