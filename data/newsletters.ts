@@ -20,7 +20,6 @@ export const otherDocs: Newsletter[] = [
     date: '',
     description: 'Other District 2 documents.',
     attachments: [
-      { label: 'Flower Show Schedule', pdfPath: '/newsletters/Schedule LARGE final 8.5 x 11 (2).pdf' },
       { label: 'Photo Competition', pdfPath: '/newsletters/D2 2027 Photo Competition.pdf' },
     ],
   },
